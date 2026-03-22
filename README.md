@@ -1,125 +1,96 @@
-# Retail-Sales-Analytics-Project
-An end-to-end Retail Sales Analytics project using Python, MySQL, and Power BI.
-This project covers data cleaning, exploratory data analysis (EDA), SQL insights, KPI generation, and an interactive Power BI dashboard analyzing sales, profit, discounts, top products, and regional performance.
+# 🛒 Retail Sales & Profit Analytics — End-to-End Project
 
-**📌 Project Overview**
+![Dashboard Preview](images/dashboard_-_1.png)
 
-This project simulates a real-world retail business analysis workflow.
-The objective is to uncover actionable insights from transactional retail data and present them through a professional Power BI dashboard.
+> **Tools:** Python · MySQL · Power BI &nbsp;|&nbsp; **Dataset:** 10,000+ rows of retail transactional data &nbsp;|&nbsp; **Domain:** Retail Business Intelligence
 
-The workflow includes:
+---
 
-Importing and preparing raw retail data
+## 📌 Project Overview
 
-Cleaning and transforming data in Python & SQL
+This end-to-end analytics project simulates a real-world retail business analysis workflow. Starting from raw transactional data, the project covers data cleaning, SQL-based KPI analysis, and a fully interactive Power BI dashboard — built to help business stakeholders understand sales performance, profitability, and regional trends.
 
-Writing advanced SQL queries to derive business KPIs
+---
 
-Building a visually compelling Power BI dashboard
+## 🔧 Tech Stack
 
-Documenting insights for stakeholders
+| Tool | Purpose |
+|------|---------|
+| Python (Pandas, NumPy) | Data cleaning, preprocessing, EDA |
+| MySQL | KPI queries, aggregations, window functions |
+| Power BI | Interactive dashboard & business insights |
+| GitHub | Version control & portfolio documentation |
 
-🔧 Tech Stack
-Tool	Purpose
-Python (Pandas, NumPy)	Data cleaning, preprocessing, EDA
-MySQL	Querying, aggregations, KPI generation
-Power BI	Dashboard creation & insights visualization
-GitHub	Version control & portfolio documentation
-**📊 Key Business Questions Answered**
-Sales & Profit Insights
+---
 
-What is the total sales and profit for 2022–2023?
+## 📊 Dashboard Highlights
 
-Which categories and sub-categories generate the most revenue?
+The Power BI dashboard answers key business questions at a glance:
 
-What are the top 10 highest-selling products?
+- **KPI Cards** — Total Sales (2.22M), Total Profit (205K), Avg Discount (8.04), Total Orders (10K)
+- **Sales by Category** — Technology leads, followed by Furniture and Office Supplies
+- **Yearly Sales Trend** — Clear year-over-year growth from 2022 to 2023
+- **Sales by Region** — West region is the top performer
+- **Top Sub-Categories by Profit** — Chairs, Phones, and Storage lead profitability
+- **Ship Mode Distribution** — Standard Class dominates order fulfillment
+- **Discount vs Profit Relationship** — Scatter analysis across all product categories
+- **Interactive Filters** — Year, Category, Ship Mode, Region
 
-Discount & Margin Analysis
+![Dashboard Page 2](images/dashboard-3.png)
 
-What is the average discount per category?
+---
 
-What are the profit margins across sub-categories?
+## 🗄️ SQL Queries Included
 
-Customer & Regional Trends
+All scripts are in the `/sql` folder. Key analyses include:
 
-Which regions are the most profitable?
+- Total revenue, profit, and average order value
+- Category and sub-category performance breakdown
+- Regional and city-level sales comparison
+- Top 10 highest-selling products
+- Top 5 products per region (using window functions)
+- Discount impact on profit margins
+- Year-over-year and month-over-month sales trends
 
-Which cities generated the highest sales?
+---
 
-How do sales vary year-over-year and month-over-month?
+## 💡 Key Business Insights
 
-Advanced Product Analysis
+- **Technology** generates the highest sales and profit of all categories
+- **West region** is the most profitable; South is the weakest performer
+- **New York City, Los Angeles, and Seattle** are the top 3 cities by revenue
+- Sales grew significantly year-over-year from 2022 to 2023
+- **Copiers, Machines, and Appliances** show the strongest profit margins
+- Higher discounts correlate with lower profit — particularly in Furniture
 
-What are the top 5 highest-selling products in each region
-Project Structure (Copy-Friendly Version)
+---
 
+## 📁 Project Structure
+
+```
 Retail-Sales-Analytics-Project/
 │
-├── data/ → raw & cleaned datasets
-├── notebook/ → Python data cleaning & EDA notebook
-├── sql/ → contains all SQL queries used
-├── powerbi/ → Power BI dashboard (.pbix file)
-├── images/ → dashboard screenshots & SQL results
-└── README.md → documentation
+├── data/          → raw & cleaned datasets
+├── notebook/      → Python data cleaning & EDA (.ipynb)
+├── sql/           → all SQL queries used for analysis
+├── powerbi/       → Power BI dashboard (.pbix file)
+├── images/        → dashboard screenshots & query results
+└── README.md      → project documentation
+```
 
-📌 KPIs Calculated
+---
 
-Total Sales – Total revenue generated
-Total Profit – Overall profitability
-Average Discount – Average percentage discount across all orders
-Total Orders – Number of retail transactions
-Profit Margin – Profitability percentage per sub-category
+## 🚀 Future Enhancements
 
-📈 Dashboard Highlights
+- Sales forecasting using time-series models (ARIMA / Prophet)
+- Customer segmentation using clustering (K-Means)
+- Automated ETL pipeline using Python + SQLAlchemy
+- Enhanced Power BI with drill-through pages and tooltips
 
-The Power BI dashboard includes:
+---
 
-Category-wise sales & profit
+## 📬 Contact
 
-Region-wise sales comparison
-
-Yearly sales trend
-
-Monthly sales trend
-
-Sub-category profit margins
-
-Top 10 best-selling products
-
-Discount vs profit relationship visualization
-
-Filters for year, category, ship mode, and region
-
-Screenshots are inside the images/dashboard folder.
-
-🗄️ SQL Queries Included
-
-All SQL scripts used for analysis (CTEs, window functions, grouping, aggregations, KPI queries) are inside the sql folder.
-
-💡 Key Insights Summary
-
-Technology category has the highest sales and profit
-
-West region is the most profitable
-
-New York City, Los Angeles, and Seattle are the top-performing cities
-
-Sales increased year-over-year from 2022 to 2023
-
-Copiers, Machines, and Appliances sub-categories show the strongest margins
-
-🚀 Future Enhancements
-
-Add sales forecasting using time-series models
-
-Advanced customer segmentation (clustering)
-
-Automate ETL using Python
-
-Improve Power BI with drill-through and tooltips
-
-📬 Contact
-
-GitHub: https://github.com/saarim-ds
-
-LinkedIn: https://www.linkedin.com/in/m-saarim-khan/
+- **GitHub:** [github.com/saarim-ds](https://github.com/saarim-ds)
+- **LinkedIn:** [linkedin.com/in/m-saarim-khan](https://www.linkedin.com/in/m-saarim-khan/)
+- **Email:** saarim.yusufzai1@gmail.com
