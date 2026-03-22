@@ -1,6 +1,6 @@
 # 🛒 Retail Sales & Profit Analytics — End-to-End Project
 
-![Dashboard Preview](images/dashboard/dashboard_-_1.png)
+![Dashboard Preview](images/dashboard/dashboard%20-%201.png)
 
 > **Tools:** Python · MySQL · Power BI &nbsp;|&nbsp; **Dataset:** 10,000+ rows of retail transactional data &nbsp;|&nbsp; **Domain:** Retail Business Intelligence
 
