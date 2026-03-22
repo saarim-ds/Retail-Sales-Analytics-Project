@@ -1,6 +1,6 @@
 # 🛒 Retail Sales & Profit Analytics — End-to-End Project
 
-![Dashboard Preview](images/dashboard_-_1.png)
+![Dashboard Preview](images/dashboard/dashboard_-_1.png)
 
 > **Tools:** Python · MySQL · Power BI &nbsp;|&nbsp; **Dataset:** 10,000+ rows of retail transactional data &nbsp;|&nbsp; **Domain:** Retail Business Intelligence
 
@@ -36,7 +36,7 @@ The Power BI dashboard answers key business questions at a glance:
 - **Discount vs Profit Relationship** — Scatter analysis across all product categories
 - **Interactive Filters** — Year, Category, Ship Mode, Region
 
-![Dashboard Page 2](images/dashboard-3.png)
+![Dashboard Page 2](images/dashboard/dashboard-3.png)
 
 ---
 
